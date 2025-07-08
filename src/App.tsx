@@ -756,7 +756,7 @@ function App() {
               <h1 className={`text-4xl font-bold ${theme.text}`}>
                 Smart Class Scheduler
               </h1>
-              <p className={theme.textSecondary}>STRICT filtering: Only avgCheckedIn > 5.0 with historic data</p>
+<p className={theme.textSecondary}>STRICT filtering: Only avgCheckedIn {'>'} 5.0 with historic data</p>
             </div>
           </div>
           
